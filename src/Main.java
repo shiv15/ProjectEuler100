@@ -8,15 +8,15 @@ public class Main {
         Problem_004 p4 = new Problem_004();
 
         // Problem 001
-//        System.out.println(p1.sumOfMultiples(1000, multiplesArray));
+        System.out.println(p1.sumOfMultiples(1000, multiplesArray));
 
         // Problem 002
-//        System.out.println(p2.evenFibonacciWP());
+        System.out.println(p2.evenFibonacciWP());
 
         // Problem 003
         System.out.println(p3.largestPrimeFactor(number));
 
         // Problem 004
-//        System.out.println(p4.palindrome());
+        System.out.println(p4.palindrome());
     }
 }
