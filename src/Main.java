@@ -8,25 +8,33 @@ public class Main {
         Problem_004 p4 = new Problem_004();
         Problem_005 p5 = new Problem_005();
         Problem_006 p6 = new Problem_006();
+        Problem_007 p7 = new Problem_007();
+        Problem_008 p8 = new Problem_008();
 
 
-//        // Problem 001
-//        System.out.println(p1.sumOfMultiples(1000, multiplesArray));
-//
-//        // Problem 002
-//        System.out.println(p2.evenFibonacciWP());
-//
-//        // Problem 003
-//        System.out.println(p3.largestPrimeFactor(number));
-//
-//        // Problem 004
-//        System.out.println(p4.palindrome());
-//
-//        // Problem 005
-//        System.out.println(p5.smallestDivisibleNumber());
+        // Problem 001
+        System.out.println(p1.sumOfMultiples(1000, multiplesArray));
+
+        // Problem 002
+        System.out.println(p2.evenFibonacciWP());
+
+        // Problem 003
+        System.out.println(p3.largestPrimeFactor(number));
+
+        // Problem 004
+        System.out.println(p4.palindrome());
+
+        // Problem 005
+        System.out.println(p5.smallestDivisibleNumber());
 
         // Problem 006
         System.out.println(p6.differenceSquareSum(100));
+
+        // Problem 007
+        System.out.println(p7.positionOfPrimeNumber(10001));
+
+        // Problem 008
+        System.out.println(p8.adjacentProduct(13));
 
 
     }
