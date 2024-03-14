@@ -10,6 +10,7 @@ public class Main {
         Problem_006 p6 = new Problem_006();
         Problem_007 p7 = new Problem_007();
         Problem_008 p8 = new Problem_008();
+        Problem_009 p9 = new Problem_009();
 
 
         // Problem 001
@@ -35,6 +36,9 @@ public class Main {
 
         // Problem 008
         System.out.println(p8.adjacentProduct(13));
+
+        // Problem 009
+        p9.pythagoreanTriplet();
 
 
     }
